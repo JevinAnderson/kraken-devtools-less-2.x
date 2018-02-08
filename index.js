@@ -14,9 +14,11 @@ module.exports = function(options) {
       })
     };
 
-    less.render(data.toString('utf8'), renderOptions, function(error, output) {
-      if (error) {
-        callback(error);
+    less.render(data.toString('utf8'), renderOptions, function(err, output) {
+      if (err) {
+        callback(err);
+
+        return;
       }
 
       callback(undefined, output.css);
