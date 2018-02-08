@@ -7,7 +7,7 @@
 ```json
 {
   "less-2.x": {
-    "module": "kraken-devtools-less-2.x",
+    "module": "kraken-devtools-less-two",
     "files": "/css/**/*.css",
     "paths": ["./css", "../"],
     "ext": "less"

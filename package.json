@@ -1,5 +1,5 @@
 {
-  "name": "kraken-devtools-less-2.x",
+  "name": "kraken-devtools-less-two",
   "version": "0.0.1",
   "description": "A devtool plugin for less 2.x",
   "main": "index.js",
@@ -17,5 +17,14 @@
   "license": "ISC",
   "dependencies": {
     "less": "^2.7.3"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JevinAnderson/kraken-devtools-less-2.x.git"
+  },
+  "bugs": {
+    "url": "https://github.com/JevinAnderson/kraken-devtools-less-2.x/issues"
+  },
+  "homepage": "https://github.com/JevinAnderson/kraken-devtools-less-2.x#readme"
 }
