@@ -9,7 +9,7 @@ module.exports = function(options) {
   return function(data, args, callback) {
     var renderOptions = {
       filename: args.context.name,
-      paths: paths.map(function(path) {
+      paths: paths.map(function(pathOption) {
         return path.resolve(args.context.srcRoot, pathOption);
       })
     };
