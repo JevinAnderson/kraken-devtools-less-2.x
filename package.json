@@ -1,0 +1,21 @@
+{
+  "name": "kraken-devtools-less-2.x",
+  "version": "0.0.1",
+  "description": "A devtool plugin for less 2.x",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "kraken",
+    "devtools",
+    "plugin",
+    "less",
+    "kraken-js"
+  ],
+  "author": "Jevin Anderson",
+  "license": "ISC",
+  "dependencies": {
+    "less": "^2.7.3"
+  }
+}
